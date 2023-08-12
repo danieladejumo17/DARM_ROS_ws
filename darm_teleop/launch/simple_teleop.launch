@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="darm_teleop" name="simple_goal_publisher" type="simple_goal_publisher.py" output="screen" />
+    <!-- Include a GUI to send new goal commands -->
+</launch>

@@ -1,0 +1,4 @@
+- Use the conda environment minimal_hand_test
+- Run using python3, not just python
+- Joint IDs are as given in MPIIHandJoints:labels in kinematics.py
+- Joint rotations are global joint rotations in quaternions: wrappers.py > ModelIK > process

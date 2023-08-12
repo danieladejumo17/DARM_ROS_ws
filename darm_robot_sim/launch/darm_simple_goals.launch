@@ -1,0 +1,5 @@
+<launch>
+    <include file="$(find darm_robot_sim)/launch/darm_sim.launch" />
+    <include file="$(find darm_teleop)/launch/simple_teleop.launch" />
+    <include file="$(find darm_controller)/launch/darm_controller.launch" /> 
+</launch>

@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="darm_controller" name="mdp_observer" type="mdp_observer.py" output="screen" />
+    <node pkg="darm_controller" name="rl_agent" type="rl_agent.py" output="screen" />
+</launch>
